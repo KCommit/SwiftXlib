@@ -1,0 +1,5 @@
+module SwiftXlib [system] {
+    header "../../Headers/Xlib-Bridging-Header.h"
+    link "x11"
+    export *
+}
